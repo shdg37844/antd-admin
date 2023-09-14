@@ -1,0 +1,263 @@
+/* header部分---------------------------------------------------------------------- */
+.page-header {
+    display: flex;
+    padding: 0px 16px;
+    justify-content: space-between;
+    align-items: center;
+    background: #001529;
+    box-shadow: 0px -1px 0px 0px #F0F0F0 inset;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-left-name {
+    margin: 8px 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.header-right {
+    display: flex;
+}
+
+.nav-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    height: 48px;
+}
+
+.bell-inner {
+    padding: 4px;
+}
+
+.notification {
+    position: absolute;
+    top: 2px;
+    left: 26px;
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 100px;
+    background: #FF4D4F;
+}
+
+.avatar {
+    margin-right: 8px;
+    width: 24px;
+    height: 23.999px;
+    border-radius: 119px;
+    background: #1890FF;
+}
+
+.yourname {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* 主体mainer部分---------------------------------------------------------------------------- */
+.page-mainer {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 208px;
+    height: 852px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.sidebar-nav {
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-link {
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link .nav-text {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    flex: 1 0 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.nav-text.blue {
+    color: #1890FF;
+}
+
+.nav-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.nav-icon:hover {
+    fill: #1890FF;
+}
+
+.nav-text:hover {
+    color: #1890FF;
+}
+
+.down-arrow:hover {
+    fill: #1890FF;
+}
+
+.up-arrow {
+    width: 10px;
+    height: 9px;
+}
+
+.down-arrow {
+    width: 10px;
+    height: 9px;
+}
+
+.sub-menu {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #fafafa;
+    display: none;
+}
+
+.sub-menu.collapsed-sub {
+    margin-top: 0;
+}
+
+.sub-menu-item {
+    padding-left: 40px;
+}
+
+.sub-menu-item.collapsed-sub {
+    padding: 0 16px;
+    white-space: nowrap;
+}
+
+.sub-menu-item .sub-menu-text {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.sub-menu-text.blue {
+    color: #1890FF;
+}
+
+.sub-menu-item.highlight {
+    border-right: 3px solid #1890FF;
+    background: #E6F7FF;
+}
+
+.sub-menu-item.highlight.collapsed-sub {
+    border-right: none;
+}
+
+.sub-menu-item:active {
+    border-right: 3px solid #1890FF;
+    background: #E6F7FF;
+}
+
+.sub-menu-text:active {
+    color: #1890FF;
+}
+
+.sub-menu-text:hover {
+    color: #1890FF;
+}
+
+.nav-link-ragio {
+    display: none;
+}
+
+#dashbaord:checked~.sub-menu {
+    display: flex;
+}
+
+#form:checked~.sub-menu {
+    display: flex;
+}
+
+#list:checked~.sub-menu {
+    display: flex;
+}
+
+.sidebar-menufold {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #F0F0F0 inset;
+}
+
+.sidebar-menufold svg {
+    width: 16px;
+    height: 16px;
+    margin: 12px 0;
+}
+
+/* sidebar-collapsed部分---------- */
+.sidebar-collapsed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 46px;
+    height: 852px;
+    background-color: #fff;
+    display: none;
+}
+
+.sidebar-nav-union.collapsed:hover .sub-menu {
+    display: flex;
+}
+
+.collapsed-nav-link {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.sidebar-nav-union.collapsed {
+    position: relative;
+}
+
+.sub-menu.collapsed-sub {
+    position: absolute;
+    top: 5px;
+    left: 46px;
+    padding-left: 0;
+}
