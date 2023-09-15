@@ -62,6 +62,16 @@
     margin-top: 38.9px;
 }
 
+.user-radio {
+    display: none;
+}
+
+
+
+
+
+
+
 .tabs-tops {
     display: flex;
     align-items: center;
@@ -69,6 +79,33 @@
     width: 360px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
+
+.login-tabs {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    display: none;
+}
+
+.signup-tabs {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    display: none;
+}
+
+
+#login:checked~.login-tabs {
+    display: flex;
+}
+
+#signup:checked~.signup-tabs {
+    display: flex;
+}
+
+
 
 .login-text {
     display: flex;
@@ -107,6 +144,10 @@
     line-height: 22px;
 }
 
+/* .signup-text span:active {
+    color: #1890FF;
+} */
+
 .input-union {
     display: flex;
     flex-direction: column;
@@ -118,15 +159,89 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 362px;
+    width: 360px;
     height: 40px;
-    padding: 8px 12px 8px 32px;
+    padding: 7px 11px 7px 31px;
     border-radius: 2px;
     border: 1px solid #D9D9D9;
     background: #FFF;
 }
 
+.input-item-phone-signup {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 368px;
+    height: 40px;
+    padding: 7px 11px 7px 31px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.input-item-email-signup {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-item-email-signup-left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 261.9399px;
+    height: 40px;
+    padding: 7px 11px 7px 31px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.input-item-email-signup-right {
+    position: absolute;
+    left: 270px;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 6.4px 15px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+.input-item-email-signup-right span {
+    width: 82px;
+    height: 25.2px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 .input-item svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+    width: 16px;
+    height: 16px;
+}
+
+.input-item-phone-signup svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+    width: 16px;
+    height: 16px;
+}
+
+.input-item-email-signup-left svg {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -145,8 +260,28 @@
     line-height: 24px;
 }
 
+.input-phonenumber {
+    width: 104px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 .input-password {
     width: 153px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.input-email-signup {
+    width: 120px;
     text-align: center;
     outline: none;
     border: none;
@@ -200,7 +335,31 @@ input::placeholder {
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
 
+.button-signin-signup {
+    margin: 0 auto;
+    display: flex;
+    height: 40px;
+    padding: 6.4px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid #1890FF;
+    background: #1890FF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+}
+
+
 .button-signin span {
+    width: 82px;
+    height: 25.2px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.button-signin-signup span {
     width: 82px;
     height: 25.2px;
     color: #FFF;
