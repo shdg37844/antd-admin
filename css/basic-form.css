@@ -1,0 +1,322 @@
+.mainer-top {
+    display: flex;
+    width: 1232px;
+    padding: 16px 24px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fff;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.breadcrumb-item:last-child {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.breadcrumb span {
+    display: flex;
+    padding: 0px 8px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+.theme span {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.mainer-top-content {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.mainer-form-box {
+    margin-left: 24px;
+    padding: 24px 0;
+    background-color: #fff;
+}
+
+.mainer-form {
+    width: 548px;
+    margin: 0 auto;
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.input-text-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.input-text-container-3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.input-text-container-4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.input-text {
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    width: 484px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    outline: none;
+    border: none;
+}
+
+.input-last {
+    display: flex;
+    align-items: center;
+}
+
+.input-text-container {
+    margin-right: 8px;
+}
+
+.input-text.last {
+    width: 78px;
+}
+
+.percentage {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.input-textarea {
+    width: 484px;
+    height: 66px;
+    padding: 4px 11px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.input-radio {
+    display: flex;
+    gap: 16px;
+    padding: 5px 0px;
+    align-items: center;
+
+}
+
+.input-radio-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.input-radio-text {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.radio {
+    width: 16px;
+    height: 16px;
+}
+
+.form-text {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.form-btns {
+    display: flex;
+    gap: 8px;
+}
+
+.submit-btn {
+    display: flex;
+    padding: 4px 15px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 2px;
+    border: 1px solid #1890FF;
+    background: #1890FF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+}
+
+.save-btn {
+    display: flex;
+    padding: 4px 15px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #fff;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+.input-title {
+    position: absolute;
+    top: 5px;
+    left: -41.23px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.input-text-container:nth-child(2) .input-title {
+    left: -115.94px;
+}
+
+.input-text-container-3 {
+    position: relative;
+}
+
+.input-text-container-4 {
+    position: relative;
+}
+
+.input-last {
+    position: relative;
+}
+
+.input-radio {
+    position: relative;
+}
+
+.input-text-container-3 .input-title {
+    left: -132.16px;
+}
+
+.input-text-container-4 .input-title {
+    left: -114.16px;
+}
+
+.input-last .input-title {
+    left: -122.88px;
+}
+
+.input-radio .input-title {
+    left: -118.64px;
+}
+
+.input-text-container-3 .input-title svg {
+    width: 14px;
+    height: 14px;
+}
+
+.input-text-container-3 .optional {
+    color: rgba(0, 0, 0, 0.45);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.input-text-container-4 .optional {
+    color: rgba(0, 0, 0, 0.45);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.input-last .optional {
+    color: rgba(0, 0, 0, 0.45);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.textarea-box {
+    position: relative;
+}
+
+.textarea-box-2 {
+    position: relative;
+}
+
+.textarea-box .input-title {
+    position: absolute;
+    top: 5px;
+    left: -115.94px;
+}
+
+.textarea-box-2 .input-title {
+    position: absolute;
+    top: 5px;
+    left: -60.36px;
+}
+
+.input-title span {
+    color: rgba(0, 0, 0, 0.85);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
