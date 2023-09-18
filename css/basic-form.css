@@ -62,6 +62,8 @@
     margin-right: 24px;
     padding: 24px 0;
     background-color: #fff;
+    overflow-y: scroll;
+    max-height: 600px;
 }
 
 .mainer-form {

@@ -64,6 +64,8 @@
     display: flex;
     gap: 24px;
     flex-direction: column;
+    overflow-y: scroll;
+    max-height: 600px;
 }
 
 .form-box {

@@ -70,6 +70,7 @@
     line-height: 22px;
 }
 
+
 /* 主体mainer部分---------------------------------------------------------------------------- */
 .page-mainer {
     height: 100%;
@@ -78,7 +79,7 @@
 }
 
 .sidebar {
-    height: 100%;
+    height: calc(100vh - 47.98px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -152,6 +153,10 @@
     gap: 8px;
     background: #fafafa;
     display: none;
+}
+
+.active {
+    display: flex;
 }
 
 .sub-menu.collapsed-sub {
