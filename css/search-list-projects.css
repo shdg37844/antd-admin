@@ -1,5 +1,6 @@
 .main-content {
     width: 100%;
+    height: calc(100vh - 48px);
 }
 
 .mainer-top {
@@ -125,7 +126,7 @@
 .mainer-bottom {
     width: 100%;
     margin-left: 24px;
-    max-height: 618px;
+    max-height: calc(100% - 218px);
     overflow-y: scroll;
 }
 

@@ -1,5 +1,6 @@
 .main-content {
     width: 100%;
+    height: calc(100vh - 48px);
 }
 
 .mainer-top {
@@ -63,7 +64,7 @@
     padding: 24px 0;
     background-color: #fff;
     overflow-y: scroll;
-    max-height: 600px;
+    max-height: calc(100% - 151px);
 }
 
 .mainer-form {

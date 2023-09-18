@@ -1,5 +1,6 @@
 .main-content {
     width: 100%;
+    height: calc(100vh - 48px);
 }
 
 
@@ -127,6 +128,9 @@
 .mainer-bottom {
     margin-left: 24px;
     margin-right: 24px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: calc(100% - 218px);
 }
 
 .option-card {
