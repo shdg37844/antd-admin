@@ -65,6 +65,7 @@
 }
 
 .card {
+    position: relative;
     width: 1184px;
     display: flex;
     padding: 23px;
@@ -74,9 +75,162 @@
     background: #FFF;
 }
 
+.card-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-input-container.first {
+    margin-right: 158px;
+}
+
+.card-input-title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card-input-title span {
+    color: rgba(0, 0, 0, 0.85);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.card-input-title svg {
+    width: 14px;
+    height: 14px;
+}
+
+.card-input-inner {
+    width: 400px;
+    display: flex;
+    padding: 4px 11px;
+    align-items: center;
+    flex: 1 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.card-input-inner::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+
+}
+
+.card-input-title.second {
+    position: absolute;
+    left: -85.34px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-expand {
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+    gap: 4px;
+    margin-left: 25px;
+}
+
+.card-expand span {
+    color: #1890FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.card-expand svg {
+    width: 10px;
+    height: 10px;
+}
+
+.card-btns {
+    position: absolute;
+    right: 110px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn {
+
+    display: flex;
+    padding: 4px 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 2px;
+}
+
+.btn.reset {
+    color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+.btn.query {
+    color: #FFF;
+    border: 1px solid #1890FF;
+    background: #1890FF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .search-table {
     width: 1184px;
     display: flex;
+    align-items: flex-end;
     padding: 0px 24px;
     flex-direction: column;
     background-color: #fff;
@@ -88,6 +242,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 16px 8px;
+    width: 1136px;
 }
 
 .search-table-top-title {
@@ -168,6 +323,7 @@
 
 .search-table-bottom {
     display: flex;
+    width: 1136px;
 }
 
 .cell-item {
@@ -293,6 +449,7 @@
     padding: 16px;
     gap: 8px;
     align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .item-u-blue {
@@ -300,4 +457,76 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+.pagination-advanced {
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.pagination-components {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.page-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6px;
+
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+.page-num span {
+    display: flex;
+    width: 18px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.page-num.arrow {
+    padding: 9px;
+}
+
+.page-num.ellipsis span {
+    color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+
+.page-num.six {
+    border: 1px solid #1890FF;
+}
+
+.page-num.six span {
+    color: #1890FF;
+}
+
+.page-num svg {
+    width: 12px;
+    height: 12px;
 }
