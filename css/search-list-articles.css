@@ -1,6 +1,9 @@
+.main-content {
+    width: 100%;
+}
+
 .mainer-top {
     display: flex;
-    width: 1232px;
     padding: 16px 24px 0 24px;
     margin-bottom: 24px;
     flex-direction: column;
@@ -120,7 +123,7 @@
 }
 
 .mainer-bottom {
-    position: absolute;
+    width: 100%;
     margin-left: 24px;
     max-height: 618px;
     overflow-y: scroll;
@@ -128,7 +131,7 @@
 }
 
 .option-card {
-    width: 1184px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -276,7 +279,7 @@
 }
 
 .loading-more {
-    width: 1184px;
+    width: 100%;
     padding: 8px 32px 32px 32px;
 }
 

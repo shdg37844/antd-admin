@@ -1,6 +1,11 @@
+.main-content {
+    width: 100%;
+}
+
+
 .mainer-top {
+    width: 100%;
     display: flex;
-    width: 1232px;
     padding: 16px 24px 0 24px;
     margin-bottom: 24px;
     flex-direction: column;
@@ -125,7 +130,7 @@
 }
 
 .option-card {
-    width: 1184px;
+    width: 100%;
     margin-bottom: 24px;
     display: flex;
     flex-direction: column;

@@ -1,6 +1,11 @@
+.main-content {
+    width: 100%;
+}
+
 .mainer-top {
+    /* width: 100%; */
     display: flex;
-    width: 1232px;
+
     padding: 16px 24px;
     margin-bottom: 20px;
     flex-direction: column;

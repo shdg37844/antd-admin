@@ -1,8 +1,10 @@
-.main-content {}
+.main-content {
+    width: 100%;
+}
 
 .mainer-top {
     display: flex;
-    width: 1232px;
+    width: 100%;
     padding: 12px 24px 16px 24px;
     flex-direction: column;
     gap: 12px;
@@ -57,6 +59,7 @@
     display: flex;
     align-items: center;
     gap: 24px;
+    flex: 1 0 0;
 }
 
 .mainer-top-left-avtar {
@@ -134,8 +137,9 @@
 
 .mainer-blocks {
     position: absolute;
+    width: 100%;
     display: flex;
-    margin: 24px 0 0 24px;
+    margin: 24px 24px 0 24px;
     gap: 24px;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -144,7 +148,6 @@
 
 .ongoing {
     margin-bottom: 24px;
-    width: 781px;
     background-color: #fff;
 }
 
@@ -179,7 +182,7 @@
     padding: 23px;
     flex-direction: column;
     gap: 8px;
-    width: 260px;
+    /* width: 260px; */
     border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
@@ -457,7 +460,7 @@
 }
 
 .team {
-    width: 379px;
+    /* width: 379px; */
     background-color: #fff;
 }
 

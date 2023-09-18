@@ -1,11 +1,19 @@
 /* 主体mainer部分--------------------------------------------------------------------------- */
+.main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 .page-mainer {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 78px;
-    margin-bottom: 185px;
+
 }
 
 .intro {
