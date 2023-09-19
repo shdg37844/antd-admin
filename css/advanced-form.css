@@ -65,8 +65,8 @@
     display: flex;
     gap: 24px;
     flex-direction: column;
-    overflow-y: scroll;
-    max-height: calc(100% - 151px);
+    /* overflow-y: scroll;
+    max-height: calc(100% - 151px); */
 }
 
 .form-box {
