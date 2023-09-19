@@ -3,6 +3,23 @@
     height: calc(100vh - 48px);
 }
 
+.main-content {
+    position: relative;
+    overflow-y: scroll;
+    max-height: calc(100% - 48px);
+}
+
+.mainer-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mainer-bottom {
+    margin-top: 151px;
+}
+
 
 .mainer-top {
     display: flex;
@@ -70,7 +87,7 @@
 }
 
 .form-box {
-    padding: 24px;
+    /* padding: 24px; */
     background-color: #fff;
 }
 

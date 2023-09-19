@@ -273,23 +273,3 @@
     left: 46px;
     padding-left: 0;
 }
-
-
-
-
-.main-content {
-    position: relative;
-    overflow-y: scroll;
-    max-height: calc(100% - 48px);
-}
-
-.mainer-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.mainer-bottom {
-    margin-top: 151px;
-}
