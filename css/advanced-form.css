@@ -1,24 +1,11 @@
 .main-content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     height: calc(100vh - 48px);
 }
 
-.main-content {
-    position: relative;
-    overflow-y: scroll;
-    max-height: calc(100% - 48px);
-}
 
-.mainer-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.mainer-bottom {
-    margin-top: 151px;
-}
 
 
 .mainer-top {
@@ -82,8 +69,7 @@
     display: flex;
     gap: 24px;
     flex-direction: column;
-    /* overflow-y: scroll;
-    max-height: calc(100% - 151px); */
+    overflow-y: scroll;
 }
 
 .form-box {
